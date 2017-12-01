@@ -28,7 +28,7 @@ After pressing `<enter>` you should see something similar to the following in yo
 
 3. Start the server with `npm start` this will start the express server with `nodemon`.
 
-### Routs and Pug Views
+### Routes and Pug Views
 
 This project contains a `/views` directory with template files:
 
