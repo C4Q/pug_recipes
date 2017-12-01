@@ -16,6 +16,11 @@ router.get('/', (req, res, next) => {
     });
 });
 
+
+router.get('/add', (req, res, next) => {
+  res.render('addPuppy');
+});
+
 router.get('/:id', (req, res, next) => {
   db.getSinglePuppy(req.params.id)
     .then((data) => {
