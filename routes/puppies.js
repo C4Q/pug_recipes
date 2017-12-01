@@ -32,7 +32,8 @@ router.get('/:id', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
-  db.createPuppy(req.body)
+  const { name, breed, age, sex } = req.body;
+  db.createPuppy(name, breed, age, sex)
     .then(() => {
       res.json({
         status: 'success',

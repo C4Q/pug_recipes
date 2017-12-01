@@ -10,8 +10,7 @@ function getSinglePuppy(id) {
   return db.one('select * from pups where id = $1', [parseInt(id)])
 }
 
-function createPuppy(puppyInfo) {
-  const { name, breed, age, sex } = puppyInfo;
+function createPuppy(name, breed, age, sex) {
   return db.none(
     `insert into pups(name, breed, age, sex)
      values($1, $2, $3, $4)`, [name, breed, parseInt(age), sex]
