@@ -39,3 +39,16 @@ This project contains a `/views` directory with template files:
 ### Semantic UI
 
 This project employs [semantic ui](https://semantic-ui.com) - a css framework. To learn more about how semantic ui works, you may consult the left navigation menu. Semantic UI is a pretty extensive framework, so don't feel like you have to understand all of it at once. For the sake of simplicity, the framework is loaded through a link at the top of each view. (The framework could also be downlaoded and customized locally).
+
+### Assignment
+
+1. Complete the `puppyList.pug` template.
+2. Complete the `addPuppy.pug` template.
+
+#### Bonus 1
+
+Add a feature to delete puppies from the `puppy.pug` component.
+
+#### Bonus 2
+
+Add an `editPuppy` component that will submit a `PUT` request.
