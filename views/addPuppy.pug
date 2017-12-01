@@ -11,6 +11,8 @@ html(lang='en')
       div(class="ui two item menu")
         a(class="item" href="/puppies") All Puppies
         a(class="item" href="/puppies/add") Add Puppy
-    div(class='ui fluid')
       form(class='ui form' action='/puppies' method='post')
+        div name
+        input(type="text" name="name")
+        br
         button(class='ui button', type='submit') submit 
