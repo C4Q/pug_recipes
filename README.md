@@ -33,9 +33,9 @@ After pressing `<enter>` you should see something similar to the following in yo
 This project contains a `/views` directory with template files:
 
 * `puppy.pug` to render a single `puppy` object. This view is complete and will be rendered on a `GET` request to `localhost:3000/puppies/:id`.
-* `pyppList.pug` to render an array of `puppy` objects. This view is not complete.
-* `addPuppy` to add a new puppy to the database. This view is no complete.
+* `puppyList.pug` to render an array of `puppy` objects. This view is not complete.
+* `addPuppy.pug` to add a new puppy to the database. This view is not complete.
 
 ### Semantic UI
 
-This project employs [semantic ui](https://semantic-ui.com) - a css framework. To learn more about how semantic ui works, you may consult the left navigation menu. Semantic UI is a pretty extensive framework, so don't feel like you have to understand all of it at once. For the sake of simplicity, the framework is loaded through a link at the top of each view. (The framework could also be downlaoded and customized locally).
+This project employs [semantic ui](https://semantic-ui.com) - a css framework. To learn more about how semantic ui works, you may consult the left navigation menu. Semantic UI is a pretty extensive framework, so don't feel like you have to understand all of it at once. For the sake of simplicity, the framework is loaded through a link at the top of each view. (The framework could also be downloaded and customized locally).
