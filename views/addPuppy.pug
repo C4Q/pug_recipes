@@ -12,7 +12,7 @@ html(lang='en')
         a(class="item" href="/puppies") All Puppies
         a(class="item" href="/puppies/add") Add Puppy
       form(class='ui form' action='/puppies' method='post')
-        div name
-        input(type="text" name="name")
-        br
+        div(class="field") 
+          label name 
+          input(type="text" name="name")
         button(class='ui button', type='submit') submit 
